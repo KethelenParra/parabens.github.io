@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Amor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../imagens/Succodesign-Love-Is-In-The-Web-Heart.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday</h1>
+        <p>A senhora pode até nos amar, mas nos amar mais? acho que não ♥</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../motivosDeTeamar/motivosDeTeamar.html">Motivos de te amar</a></li>
+            <li><a href="../historia/historia.html">Histórias</a></li>
+            <li><a href="../parabens/parabens.html">Parabéns</a></li>
+        </ul>
+    </nav>
+    
+    <div id="content">
+        <div id="question">
+            <h1>A senhora ama mais a gente?</h1>
+            <button id="yes">Sim</button>
+            <button id="no">Não</button>
+        </div>
+
+        <div id="game" style="display:none;">
+            <h2>Ordene quem mais ama a senhora:</h2>
+            <ul id="choices">
+                <li draggable="true">Stefany</li>
+                <li draggable="true">Newanderson</li>
+                <li draggable="true">Kethelen</li>
+                <li draggable="true">Bruna</li>
+                <li draggable="true">Gilberto</li>
+            </ul>
+            <button id="check">Verificar Ordem</button>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
